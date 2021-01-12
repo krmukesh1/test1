@@ -14,7 +14,7 @@
 }
 .center {
   margin: auto;
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
 .top-left {
@@ -28,13 +28,15 @@ h1 {
   font-family: "stddemi-font";
   /* font-family: "stdmedium-font"; */
 }
+.top-left h4 {
+  border-bottom: 3px solid #2b2b2b;
+  padding-bottom: 20px;
+  width: 85%;
+}
 .top-left p {
   font-family: "stdbook-font";
   margin-top: 0;
   margin-bottom: 0;
-}
-hr {
-  border: 1px solid black;
 }
 
 .container-fluid {
@@ -80,8 +82,8 @@ h4 {
 button {
   background-color: #17bebb;
   color: white;
-  height: 37px;
-  width: 206px;
+  height: 45px;
+  width: 230px;
   border: none;
   border-radius: 3px;
   font-size: 20px;
@@ -94,6 +96,7 @@ button {
     position: absolute;
     top: 2px;
   }
+
   h1 {
     font-size: 13px;
     margin-bottom: 0;
@@ -112,37 +115,76 @@ button {
   }
 }
 @media only screen and (min-device-width: 321px) and (max-device-width: 480px) {
+  .Banner_1 img {
+    /* width: 100px; */
+    height: 200px;
+  }
   .center {
     margin: auto;
+    margin-top: 10px;
   }
   .top-left {
     position: absolute;
-    top: 5px;
+    top: 30px;
   }
+
+  .top-left h4 {
+    border-bottom: 3px solid #2b2b2b;
+    padding-bottom: 10px;
+    width: 75%;
+  }
+  .top-left p {
+    font-family: "stdbook-font";
+    margin-top: 4px;
+    margin-bottom: 0;
+  }
+  button {
+    background-color: #17bebb;
+    color: white;
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+  }
+
   h1 {
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 0;
   }
   h4 {
     font-size: 13px;
     margin-bottom: 0;
   }
+  .banner_1 {
+    padding: 30px 15px;
+  }
   p {
     font-size: 10px;
     margin-bottom: 0;
   }
-  hr {
-    border: 1px solid black;
-    margin-bottom: 0;
+  .card-group {
+    padding: 20px 0 20px 0;
   }
 }
 @media only screen and (min-device-width: 481px) and (max-device-width: 640px) {
   .center {
     margin: auto;
+    margin-top: 8px;
   }
   .top-left {
     position: absolute;
     top: 40px;
+  }
+  .top-left h4 {
+    border-bottom: 3px solid #2b2b2b;
+    padding-bottom: 10px;
+    width: 77%;
+  }
+  .top-left p {
+    font-family: "stdbook-font";
+    margin-top: 5px;
+    margin-bottom: 0;
   }
   h1 {
     font-size: 25px;
@@ -173,15 +215,25 @@ button {
     font-size: 30px;
     margin-bottom: 0;
   }
+  .top-left h4 {
+    border-bottom: 3px solid #2b2b2b;
+    padding-bottom: 20px;
+    width: 86%;
+  }
+  .banner_1 .h4,
   h4 {
-    font-size: 25px;
-    margin-bottom: 0;
+    font-size: 21px;
+    font-family: "stddemi-font";
   }
-  p {
-    font-size: 20px;
-    margin-bottom: 0;
+  .center {
+    margin: auto;
+    margin-top: 20px;
   }
-  hr {
-    border: 1px solid black;
+}
+@media only screen and (min-device-width: 801px) and (max-device-width: 1025px) {
+  .top-left {
+    font-family: "stdmedium-font";
+    position: absolute;
+    top: 75px;
   }
 }
