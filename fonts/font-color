@@ -1,0 +1,7 @@
+background: #f2f4f4;
+background-color: #12ccc5;
+ color: #2b2b2b;
+ border: 2px solid #ced4da;
+ font-family: "stdbook-font";
+ font-family: "stdmedium-font";
+ font-family: "stddemi-font";
